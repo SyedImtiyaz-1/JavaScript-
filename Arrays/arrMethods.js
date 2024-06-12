@@ -47,3 +47,35 @@ console.log(sliceArr.slice(0,4))
 console.log(sliceArr.splice(2,2)) // showing which element changed.
 
 console.log(sliceArr) //showing the exact element left in the array.
+
+// Some more array methods
+
+// Map Array Method (it is very similiar to forEach )
+arr.map((val)=>{
+    console.log(val);
+})
+
+// printing new Array
+let newArr = arr.map((val)=>{
+    return val;
+})
+console.log(newArr)
+
+// Reduce Method in JS
+// reduce() method is used to reduce the array to a single value. It takes two arguments, first is the callback(accumulator) function and second is the currentValue
+
+let arrR = [1,2,3,4,5];
+
+const output = arrR.reduce((res, curr)=>{
+    return res + curr;
+})
+
+console.log(output);
+
+let arrR2 = [1,2,3,4,5];
+
+const output2 = arrR2.reduce((res, curr)=>{
+    return res >  curr ? res : curr ;
+})
+
+console.log(output2);

@@ -11,5 +11,4 @@ let arr2 = [2,3,4,5,6]
 let squareOfArr = (arr2) => {
     console.log(arr2*arr2);
 }
-
-arr2.forEach(squareOfArr)
+arr2.forEach(squareOfArr); // call back
