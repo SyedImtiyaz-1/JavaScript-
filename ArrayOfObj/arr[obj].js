@@ -21,11 +21,13 @@ const arrObj = [
   }
 ];
 
+// noSQL = JSON (mongoDB)
+
 // console.log(arrObj[0])
 // console.log(arrObj[0].name)
 
-for(let i = 0; i<arrObj.length; i++){
-    if(arrObj[i]["age"] == 14){
-        console.log(arrObj[i].name)
-    }
-}
+// for(let i = 0; i<arrObj.length; i++){
+//     if(arrObj[i]["age"] == 14){
+//         console.log(arrObj[i].name)
+//     }
+// }
