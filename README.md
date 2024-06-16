@@ -1,3 +1,1 @@
-## JavaScript Nub 2 Pro
-
- 
+## JavaScript { 100xCoders } Documentation Learning 
