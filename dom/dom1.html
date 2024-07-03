@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="getInput">
+        <button onclick="getData()">Submit</button>
+        <p id="output">hi</p>
+        <p id="inner"></p>
+    </div>
+
+    <script>
+        const input = document.getElementById('getInput');
+        const getOutput = document.getElementById('output');
+        document.getElementById('inner').innerHTML = "hello world"
+        
+        function getData() {
+            const inputVal = input.value;
+            getOutput.textContent = input;
+            console.log(inputVal);
+        }
+    </script>
+
+</body>
+</html>

@@ -5,8 +5,28 @@
   Once you've implemented the logic, test your code by running
 */
 
+// function countVowels(str) {
+//   let vowels = 'aeiouAEIOU';
+//   let count = 0;
+
+//   for(let i = 0 ; i < str.length; i++){
+//     if(vowels.indexOf(str[i]) != -1){
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+
 function countVowels(str) {
-    // Your code here
+  let count = 0;
+  for(let i = 0; i < str.length; i++){
+    if(str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u'){
+      count++;
+    }
+  }
+  return count;
 }
+
+console.log(countVowels('aman'))
 
 module.exports = countVowels;
