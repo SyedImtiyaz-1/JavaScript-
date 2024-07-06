@@ -1,7 +1,8 @@
-function onDone(content) {
-    console.log('onDone', content);
-}
+const fs = require("fs");
 
-readFile("./functions/a.txt");
+fs.readFile("../functions/a.txt", "utf-8", function(err, data){
+    console.log(err)
+    console.log(data)
+});
 
-console.log("hello world"); 
+console.log("done")
